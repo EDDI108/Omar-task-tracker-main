@@ -1,0 +1,36 @@
+// Стили для страницы задач
+.task-page {
+    // Общие стили для страницы задач
+    font-family: 'Arial', sans-serif;
+    color: #0e0d0d;
+    background-color: #424242;
+    
+    // Стили для контента на странице задач
+    .task-content {
+      padding: 20px;
+      border: 10px solid #011a2e;
+      border-radius: 5px;
+      background-color: #fff;
+      
+      // Стили для заголовка на странице задач
+      .task-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      
+      // Стили для списка задач на странице задач
+      .task-list {
+        list-style-type: none;
+        
+        .task-item {
+          border-bottom: 1px solid #ccc;
+          padding: 10px;
+          
+          &:last-child {
+            border-bottom: none;
+          }
+        }
+      }
+    }
+  }

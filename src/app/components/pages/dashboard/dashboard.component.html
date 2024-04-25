@@ -1,0 +1,9 @@
+<div class="dashboard-page">
+  <app-create-task-form/>
+  <div class="task-list">
+  <app-filter-and-sorting [filteredAndSortedTasks]="filteredAndSortedTasks" [tasks]="tasks"/>
+    @for (task of filteredAndSortedTasks.value; track task) {
+      <app-task-item [task]="task"/>
+    }
+  </div>
+</div>

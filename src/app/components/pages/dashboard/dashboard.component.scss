@@ -1,0 +1,9 @@
+.dashboard-page {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+
+  .task-list {
+    flex: 1;
+  }
+}
