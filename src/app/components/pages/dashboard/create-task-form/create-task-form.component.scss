@@ -1,18 +1,18 @@
 .create-task-form {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   border: 2px solid #013747;
   border-radius: 10px;
-  width: 550px;
-  padding: 0px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(43, 42, 42, 0.1);
   background-color: #f9f9f9;
 
   input, select {
     padding: 5px;
     border: 1px solid #ccc;
-    border-radius: 35px;
+    border-radius: 5px;
     width: 100%;
   }
 
@@ -32,7 +32,7 @@
 
   label {
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 45px;
   }
 
   textarea {
