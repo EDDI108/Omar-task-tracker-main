@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {Store} from "@ngrx/store";
-import {Observable} from "rxjs";
+
 import {TasksService} from "./services/tasks.service";
 import {UserService} from "./services/user.service";
 import {UserActions} from "./store/user/user.actions";

@@ -23,11 +23,7 @@
   </mat-form-field>
   <mat-form-field>
     <mat-label>Исполнители</mat-label>
-    <mat-select formControlName="executorsId" multiple>
-      @for (user of users | async; track user) {
-        <mat-option [value]=user.userId>{{user.name}}</mat-option>
-      }
-    </mat-select>
+      <input matInput type="text" formControlName="newField">
   </mat-form-field>
   <button [disabled]="taskCreateForm.invalid" mat-raised-button color="accent"  type="submit" (keydown.enter)="$event.preventDefault()">Добавить</button>
 </form>
